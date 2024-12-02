@@ -222,10 +222,14 @@
     @include('slider-swiper')
 
     <div class="mx-auto w-full bg-white py-24">
-      <h1
-        class=" z-10 w-full lg:w-1/2 h-16 text-center px-8 lg:px-16 py-4 text-white font-semibold text-2xl lg:text-4xl capitalize bg-red-700 rounded-md shadow-lg">
-        Best Seller
-      </h1>
+      <div
+        class=" z-10 w-full lg:text-lg sm:text-sm h-auto text-center px-8 lg:px-16 py-4 text-white font-semibold  lg:text-4xl capitalize bg-red-700 rounded-md shadow-lg">
+        Produk Unggulan
+        <p class="text-sm sm:text-xs py-3">
+          Dapatkan Penawaran Menarik di Store Kami
+        </p>
+      </div>
+
     </div>
 
 
@@ -234,79 +238,92 @@
         <div class="container">
 
 
-          <div class="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4  gap-4 ">
+          <div class="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4  gap-4 item-center">
 
             <!-- Mini Card 1 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class="row-span-2  shadow-lg rounded-lg  w-full h-full">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 2 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
-
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 3 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
 
             </div>
 
             <!-- Mini Card 4 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
 
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
             <!-- Mini Card 5 -->
-            <div class="bg-red-600 shadow-lg rounded-lg ">
-              <img src="https://via.placeholder.com/200" alt="Card Image" class=" w-full object-cover">
+            <div class=" shadow-lg rounded-lg ">
+              <img src="https://via.placeholder.com/200" alt="Card Image"
+                class="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105 sm:hover:scale-105">
             </div>
 
           </div>
